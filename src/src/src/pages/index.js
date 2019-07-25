@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>Granular IT</div>
+export default () => <div>Granular IT.</div>
