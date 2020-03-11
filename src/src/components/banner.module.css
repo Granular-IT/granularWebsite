@@ -1,0 +1,47 @@
+.banner_wrapper {
+    background: url('https://images.ctfassets.net/ac2ngyy3c6dw/6GbBaTmemXEEy2UYEoWH9Q/50f99ba198fd911f92d68361245bd821/uk.jpg');
+    background-size: cover;
+    margin: 0 0 0px;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+.overlay {
+    background: #000;
+    background-repeat: repeat;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+.caption_contaner {
+    background-position: center center;
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    max-width: 80%;
+    text-align: center;
+    top: 35%;
+    z-index: 2;
+    left: 10%;
+}
+.caption_contaner h1{
+    font-size: 65px;
+    max-width: 80%;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px){
+    .caption_contaner h1{
+    font-size: 25px !important;
+    max-width: 90%;
+    white-space: normal;
+    padding-top: 6% !important;
+    border: none;
+    }
+}

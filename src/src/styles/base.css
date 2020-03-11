@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Futura-Bt";
+    src: url("../fonts/Futura-Bk-BT-Book_18979.eot");
+    src: url("../fonts/Futura-Bk-BT-Book_18979.ttf");
+    src: url("../fonts/colorado.ttf");
+    src: url("../fonts/Futura-Bk-BT-Book_18979.woff");
+ 
+}
+
+@font-face {
+    font-family: "colorado";
+    src: url("../fonts/colorado.ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+    font-family: "Futura-Bt";
+    overflow-x: hidden;
+}
+/*navigation css*/
+h1, h2, h3, h4, h5, h6, .caption_contaner p, .pushy.pushy-left ul li a{
+    font-family: Futura-Bt !important;
+    letter-spacing: 3px;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 29px;
+    letter-spacing: 0.5px;
+}
+#nav {
+    float: left;
+    width: 100%;
+    background: #000000ad;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    padding: 10px 10px 25px;
+}
+.main_logo.align-center {
+    margin: 0;
+}
+.LOGO {
+    margin-top: 20px;
+    text-align: left;
+    background: url('https://images.ctfassets.net/ac2ngyy3c6dw/4hfDJjlIIpQyXJIE4BHm0j/9bb0cbe257e9ea4d4b008f9d378dc877/logo.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 160px;
+    height: 52px;
+}
+.LOGO img {
+    margin-left: 4%;
+}
+ul.nav li {
+    font-size: 20px !important;
+    float: left;
+    list-style: none;
+    margin: 30px 30px 10px;
+    color:#fff;
+    font-weight: bold;
+}
+.nav {
+    float: right;
+    width: max-content;
+    width: -moz-max-content;
+}
+ul.nav li a {
+    color: #f1eded;
+    font-family: Futura-Bt !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+/*end navigation css*/
+
+/*services section css*/
+.service_item {
+    padding: 160px;
+}
+@media only screen and (max-width: 1024px){
+    .service_item {
+        padding: 45px !important;
+    }
+}
+
+.service_item h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 40em){
+    .service_item h1 {
+        font-size: 23px;
+    }
+}
+
+.service_item p {
+    color: #fff;
+    font-size: 20px;
+}
+@media only screen and (min-width: 1024px){
+    .service_item p {
+        width: 65%;
+    }
+}
+
+.service_item hr, .about_item hr {
+    border-width: 5px 0 0;
+    width: 10%;
+    border-radius: 100px;
+    border: solid #ddd;
+    clear: both;
+    margin: 1.25em 0 1.1875em;
+    height: 0;
+}
+
+.services_images img{
+    width: 100%;
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  
+ .services_images img {
+        width: 90% !important;
+        float: right;
+    }
+}
