@@ -1,0 +1,12 @@
+.service_item.itSupport {
+    background-image: linear-gradient(90deg,#83d0a8,#b1ec55);
+    min-height: 50em;
+}
+.service_item.itSupport .card {
+    min-height: 20em;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: url('https://images.ctfassets.net/ac2ngyy3c6dw/2RpsFlnUZqcXVb8pWpZYSj/5f6bdf9d8f3f06ca95fe732a2d949ef1/laptop.jpg');
+    border-radius: 15px;
+    box-shadow: 0px 5px 30px -8px #000;
+}
